@@ -161,6 +161,7 @@
 			var mapId = jQuery('.mapviewer_control').attr("id");
 			var instance = GvNIX_Map_Leaflet.fnGetInstance(mapId);
 			var map = instance.fnGetMapObject();
+			map.panTo(new L.LatLng(-17.1072, 145.4111));
 			map._onResize();
 			// Setting max height of layer control
 			jQuery(".mapviewer_layers").css("max-height", finalHeight - 90 + "px");

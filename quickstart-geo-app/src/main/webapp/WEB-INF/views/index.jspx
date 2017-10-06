@@ -5,9 +5,9 @@
     <spring:message code="application_name" htmlEscape="false" var="app_name"/>
     <spring:message arguments="${app_name}" code="welcome_titlepane" htmlEscape="false" var="title"/>
 
-        <div class="jumbotron">
+        <div>
             <h1><spring:message arguments="${app_name}" code="welcome_h3"/></h1>
-            <p><spring:message code="welcome_text"/></p>
+            <!--<p><spring:message code="welcome_text"/></p>-->
         </div>
 
 </div>
